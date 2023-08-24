@@ -19,6 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SecundaryActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".TertiaryActivity"
+            android:exported="true"/>
+
     </application>
 
 </manifest>
